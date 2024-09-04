@@ -1,0 +1,32 @@
+# How to scrap a website with Scrapy:
+
+1. Prepare the scraper scaffolding:
+  - Install the Scrapy Package
+  - Create a Scrapy Project
+
+2. Inspect the source That You Want to Scrape:
+  - Look at the website in Your Browser Shell
+  - Preview the Data With the Scrapy Shell
+
+3. Build your web scraper with Scrapy:
+  - Collect the Data in an Item
+  - Write a Scrapy Spider
+  - Extract Data From the Website
+  - Handle Pagination and Follow URLs
+
+4. Store the scrapped Data in MongoDB:
+  - Setup a MongoDB Collection on your computer
+  - Connect to a MongoDB Database From Scrapy
+  - Process the Data Through a Scrapy Pipeline
+  - Avoid Adding Duplicate Entries
+
+5. Debug and Test Your Scrapy Web Scraper:
+  - Log Information With the Logger
+  - Handle Errors with errback
+  - Sign Some Spider Contracts
+  - Write Unit Tests for Detailed Testing
+
+6. Handle Common Web Scrapping Challenges:
+  - Retry Failed Requests
+  - Deal with Dynamic Content
+  - Manage Anti-Scrapping Mechanisms
