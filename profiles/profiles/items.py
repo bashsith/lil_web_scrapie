@@ -9,4 +9,6 @@ import scrapy
 class ProfilesItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    url = scrapy.Field()
+    profile = scrapy.Field()
+    headline = scrapy.Field()
